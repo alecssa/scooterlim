@@ -1,0 +1,61 @@
+*{
+  box-sizing: content-box;
+  margin: 0px;
+  font-family: sans-serif;
+}
+body{
+  background-image: url(materiale/sfondo.jpg);
+  background-size: cover;
+  padding: 2% 18%;
+}
+.container{;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 7%;
+}
+header,nav,footer{
+  text-align: center;
+}
+img{
+  width: 25%;
+}
+h1, footer{
+  color: #08dc04;
+  padding: 5px;
+}
+nav{
+  background-color: #08dc04;
+  padding: 1%;
+}
+main{
+  color: white;
+}
+h3{
+  padding-top: 17px;
+  display: inline-block;
+}
+h3+span:before{
+  content: '\21A6';
+}
+span{
+  display: block;
+}
+.barra{
+  border-radius: 5px;
+}
+.a{
+  background-color: orange;
+  color: orange;
+  width: 30%;
+}
+.b{
+  background-color: green;
+  color: green;
+  width: 65%;
+}
+.c{
+  background-color: red;
+  color: red;
+  width: 13%;
+}
+/* A proposiro di bara, forse ho barato un pò :D */
